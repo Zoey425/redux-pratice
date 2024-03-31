@@ -28,9 +28,9 @@ function App() {
             <Box />
 
             <div className="login">
-                <div>
+                <h1>
                     {id} / {password}
-                </div>
+                </h1>
                 <button onClick={login}>login</button>
             </div>
         </div>
